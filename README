@@ -1,0 +1,7 @@
+ Modifications I have made to Apple's source.
+ 1.  Added keys to the info.plist file to allow for backgrounding.
+ 2.  Removed the text view and replaced it with a simple UILabel.
+ 3.  Fixed the peripheral so that it just automatically advertises; removed the UISwitch.
+ 4.  Fixed the central so that it stays connected until you tell it to go away.
+ 5.  Added RSSI / Signal Strength to the Central View, so you know how close you are to the Peripheral.
+ 6.  You'll find my comments started with "BK" (Bob Kressin) throughout Apple's source.
